@@ -51,8 +51,8 @@ export default function Examples() {
           if not, then it’s an HTML element.
           so you can map prop value to a capitalized variable and JSX know it's a component (const ButtonsConstianer = buttonsContainer)
           or you can directly use Capitalized prop
+          ButtonsContainer="menu"
         */
-        ButtonsContainer="menu"
         buttons={
           <>
             <TabButton
