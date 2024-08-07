@@ -44,6 +44,15 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples">
       <Tabs
+        /* 
+          for the built-in element we use string "menu", "div"
+          for the custom component we use curly bracket {Section}
+          If the first letter of a name is capitalized, then JSX knows it’s a component instance; 
+          if not, then it’s an HTML element.
+          so you can map prop value to a capitalized variable and JSX know it's a component (const ButtonsConstianer = buttonsContainer)
+          or you can directly use Capitalized prop
+        */
+        ButtonsContainer="menu"
         buttons={
           <>
             <TabButton
